@@ -18,7 +18,7 @@ describe "Dog" do
   end
 
   describe "attributes" do
-    it 'has a name and a breed' do
+    it 'has a nsqame and a breed' do
       dog = Dog.new(name: "Fido", breed: "lab")
       expect(dog.name).to eq("Fido")
       expect(dog.breed).to eq("lab")
